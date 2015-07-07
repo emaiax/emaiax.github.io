@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://emaiax.me" # the base hostname & protocol for your site
 twitter_username: emaiax
 github_username:  emaiax
+google_analytics: UA-44050381-1
 
 timezone: "America/Sao_Paulo"
 
