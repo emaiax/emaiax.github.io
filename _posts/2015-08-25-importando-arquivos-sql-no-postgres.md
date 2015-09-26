@@ -1,8 +1,7 @@
 ---
-title:  Importando arquivos SQL no Postgresql
-author: Eduardo Maia
 layout: post
-categories: postgres
+title:  Importando arquivos SQL no Postgresql
+tags: [postgres, dicas]
 ---
 Como uso OSX já faz um tempo, não perco muito tempo instalando um sgdb e configurando tudo, como fazia no Windows ou Linux.
 

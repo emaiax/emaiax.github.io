@@ -1,8 +1,7 @@
 ---
 title:  puts "hello world!"
-author: Eduardo Maia
 layout: post
-categories: geral
+tags: [geral]
 ---
 # TL;DR;
 Já fazia alguns anos que queria escrever, seja lá qual fosse o assunto.
