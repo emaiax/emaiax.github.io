@@ -17,6 +17,5 @@ Acho que a forma mais simples que encontrei foi essa, funcionou muito bem pra mi
 
 **Atenção:** Isso serve para importar um arquivo SQL, restaurar um backup já é outra história. :sunglasses:
 
----
 [1]: https://github.com/Homebrew/homebrew
 [2]: http://postgresapp.com
