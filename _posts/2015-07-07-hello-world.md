@@ -11,8 +11,6 @@ Se quiser saber um pouco mais sobre mim, pode ler [aqui](/sobre).
 
 Abraços!
 
---
-
 {% highlight ruby %}
 class Writer
   def start
