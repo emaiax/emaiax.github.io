@@ -3,7 +3,8 @@ title:  puts "hello world!"
 layout: post
 tags: [geral]
 ---
-# TL;DR;
+#### TL;DR;
+
 Já fazia alguns anos que queria escrever, seja lá qual fosse o assunto.
 Acho que pra isso, bastava apenas "começar". :)
 
