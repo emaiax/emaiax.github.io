@@ -19,6 +19,11 @@
           <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>{% unless forloop.last %} <span>/</span>{% endunless %}
         </li>
         {% endif %} {% endfor %}
+
+        <span>/</span>
+        <li class="nav-item">
+          <a href="/feed.xml">RSS</a>
+        </li>
       </ul>
     </nav>
     {% include social-links.html %}
