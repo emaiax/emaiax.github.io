@@ -14,6 +14,7 @@ url: ""
 ####################################
 #
 timezone: "America/Sao_Paulo"
+date_format: "%d/%m/%Y"
 markdown:    kramdown
 highlighter: pygments
 excerpt_separator: <!--more-->
