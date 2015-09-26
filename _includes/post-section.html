@@ -1,14 +1,14 @@
 <section class="post">
   <header class="post-header">
     {% if post.link %}
-      <h2>
+      <h3>
         <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         <a class="post-title" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-gg-circle"></i></a>
-      </h2>
+      </h3>
     {% else %}
-      <h2>
+      <h3>
         <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      </h2>
+      </h3>
     {% endif %}
 
     {% if post.author %}
