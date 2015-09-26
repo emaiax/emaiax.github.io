@@ -1,18 +1,73 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
 title: Eduardo Maia
 email: eduvimaia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Codebeers.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://emaiax.me" # the base hostname & protocol for your site
-twitter_username: emaiax
-github_username:  emaiax
-google_analytics: UA-44050381-1
+description: ""
+url: ""
 
+#
+###################################
+# Jekyll configuration
+####################################
+#
 timezone: "America/Sao_Paulo"
-
 permalink: none
-markdown: kramdown
+markdown:    kramdown
 highlighter: pygments
-
+excerpt_separator: <!--more-->
+sass:
+  sass_dir: _sass
+  style: compressed
 gems:
   - jemoji
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+owner:
+  name: Eduardo Maia
+  avatar: bio-photo.jpg
+  bio: "Work hard, play harder."
+  email: eduvimaia@gmail.com
+  disqus-shortname: codebeers
+  twitter: emaiax
+  facebook: emaiax
+  google:
+    plus: #username
+    analytics: UA-44050381-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: emaiax
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: emaiax #username
+  lastfm: emaiax
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
