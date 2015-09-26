@@ -14,7 +14,6 @@ url: ""
 ####################################
 #
 timezone: "America/Sao_Paulo"
-permalink: none
 markdown:    kramdown
 highlighter: pygments
 excerpt_separator: <!--more-->
@@ -42,7 +41,7 @@ owner:
   avatar: bio-photo.jpg
   bio: "Work hard, play harder."
   email: eduvimaia@gmail.com
-  disqus-shortname: codebeers
+  disqus-shortname: emaiax
   twitter: emaiax
   facebook: emaiax
   google:
