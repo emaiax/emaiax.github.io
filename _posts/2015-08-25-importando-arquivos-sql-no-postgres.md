@@ -1,8 +1,7 @@
 ---
-title:  Importando arquivos SQL no Postgresql
-author: Eduardo Maia
 layout: post
-categories: postgres
+title:  Importando arquivos SQL no Postgresql
+tags: [postgres, dicas]
 ---
 Como uso OSX já faz um tempo, não perco muito tempo instalando um sgdb e configurando tudo, como fazia no Windows ou Linux.
 
@@ -12,12 +11,12 @@ Para o MySQL eu uso o [homebrew][1], mas para o Postgres existe um app que faz t
 
 Acho que a forma mais simples que encontrei foi essa, funcionou muito bem pra mim. :dancers:
 
-`$ psql -h [host] -p [port] -d [database] -U [user] -f [/path/do/arquivo]`
+{% highlight sh %}
+$ psql -h [host] -p [port] -d [database] -U [user] -f [/path/do/arquivo]
+{% endhighlight %}
 
---
+**Atenção:** Isso serve apenas para importar um arquivo SQL, restaurar um backup já é outra história. :sunglasses:
+{: .notice}
 
-**Atenção:** Isso serve para importar um arquivo SQL, restaurar um backup já é outra história. :sunglasses:
-
----
 [1]: https://github.com/Homebrew/homebrew
 [2]: http://postgresapp.com
