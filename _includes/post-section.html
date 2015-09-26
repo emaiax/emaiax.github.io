@@ -1,15 +1,13 @@
 <section class="post">
   <header class="post-header">
-    {% if post.link %}
-      <h3>
+    <h3>
+      {% if post.link %}
         <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         <a class="post-title" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-gg-circle"></i></a>
-      </h3>
-    {% else %}
-      <h3>
+      {% else %}
         <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      </h3>
-    {% endif %}
+      {% endif %}
+    </h3>
 
     {% if post.author %}
       {% assign author = site.data.authors[post.author] %}
