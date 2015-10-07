@@ -13,6 +13,7 @@ url: "http://emaiax.me"
 # Jekyll configuration
 ####################################
 #
+permalink: ":title"
 timezone: "America/Sao_Paulo"
 date_format: "%d/%m/%Y"
 markdown:    kramdown
