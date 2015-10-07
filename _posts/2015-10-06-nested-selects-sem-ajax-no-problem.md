@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nested selects sem AJAX? No problem.
+title: Nested selects sem AJAX? No problem
 tags: [ruby, javascript, dicas]
 ---
 Vez ou outra, todos precisamos de selects com sub-níveis e a primeira coisa que pensamos é: *`vamos usar AJAX!`*.
