@@ -17,7 +17,7 @@ layout: default
       {% if page.tags.size > 0 %}
         em
         {% for tag in page.tags %}
-          <a class="post-tag {{ tag | slugize }}" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+          <a class="post-tag {{ tag | slugize }}" href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
         {% endfor %}
       {% endif %}
     </p>
@@ -57,7 +57,7 @@ layout: default
     <h4>Recomendo:</h4>
     <ul>
       {% for post in site.related_posts limit:3 %}
-        <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
   </div><!-- /.related-articles -->
